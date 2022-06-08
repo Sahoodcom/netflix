@@ -1,0 +1,121 @@
+*{
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}*
+
+.signin {
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/f841d4c7-10e1-40af-bcae-07a3f8dc141a/8e07a611-4ced-4d4e-81e6-d278862c952b/IN-en-20220502-popsignuptwoweeks-perspective_alpha_website_small.jpg');
+    min-height: 100%;
+    min-width: 1024px;
+    
+
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+.dark{
+    position:fixed;
+    padding:0;
+    margin:0;
+
+    top:0;
+    left:0;
+
+    width: 100%;
+    height: 100%;
+    background:rgba(0, 0, 0, 0.5);
+}
+.nav{
+    position: fixed;
+    width: 100%;
+    height: 103px;
+    margin-top: 0px;
+    float: left;
+}
+.logo1{
+    position: fixed;
+    left: 53px;
+    width: 134px;
+    margin-top: 35px;
+}
+.nav button{
+    background-color: red;
+    position: fixed;
+    right: 60px;
+    width: 85px;
+    height: 34px;
+    margin-top: 38px;
+    font-weight: 400;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+.body{
+    width: 100%;
+    height: 400px;
+    margin-top: 103px;
+}
+.content1{
+    margin: auto;
+    width: 34%;
+    text-align: center;
+    color: white;
+    background:rgba(0, 0, 0, 0.6);
+    height: 575px;
+    bottom: 0px;
+    border-radius: 5px;
+    margin-top: 107px;
+}
+
+
+.body1 h3{
+    font-size: 29px;
+    font-weight: 900;
+    margin: 25px;
+    text-align: left;
+    padding-left: 56px;
+    padding-top: 62px;
+
+}
+p{
+    font-size: 19px;
+    font-weight: 500;
+    text-align: left;
+}
+.box{
+    width: 270px;
+    height: 50px;
+    border: none;
+    margin-bottom: 25px;
+    border-radius: 3px;
+    padding-left: 30px;
+    background-color: rgb(90, 90, 90);
+    outline-width: 0;
+}
+.body1 button{
+    background-color: red;
+    height: 50px;
+    width: 300px;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    font-size: 21px;
+    vertical-align: top;
+}
+#check{
+    height: 15px;
+    width: 15px;
+    margin-right: 25px;
+    margin-top: 5px;
+}
+#pp{
+    margin-left: 274px;
+    font-size: 13px;
+    margin-top: 5px;
+}
