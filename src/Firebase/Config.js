@@ -8,13 +8,13 @@ require('firebase/auth')
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDMHMTZRL4af_HjzAap7gPFvsJni6x_JLc",
-  authDomain: "netflix-fc484.firebaseapp.com",
-  projectId: "netflix-fc484",
-  storageBucket: "netflix-fc484.appspot.com",
-  messagingSenderId: "652786488469",
-  appId: "1:652786488469:web:ab8279eb3c2714b93e779c",
-  measurementId: "G-6HEZZJD1G4"
+  apiKey: "AIzaSyBer4uuPPFqGIKUlZoc8CTJPZFjycK0dAE",
+  authDomain: "netflixcom-5c656.firebaseapp.com",
+  projectId: "netflixcom-5c656",
+  storageBucket: "netflixcom-5c656.appspot.com",
+  messagingSenderId: "1020841294139",
+  appId: "1:1020841294139:web:a4449d18831dfabdc21f1e",
+  measurementId: "G-L8PGESM323"
 };
 
 

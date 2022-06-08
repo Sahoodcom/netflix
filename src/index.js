@@ -24,7 +24,7 @@ root.render(
   
   <React.StrictMode>
     <FirebaseContext.Provider value={{firebase}}>
-    <BrowserRouter  >
+    <BrowserRouter basename="/netflix" >
       <Routes>
 
         <Route path='/' element={<SignUp/>}/>
