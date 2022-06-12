@@ -44,9 +44,9 @@ function SignUp() {
         <div className='dark'>
             <div className="nav col-12 ">
               
-                <img className='logo-signup col-10' src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1920px-Netflix_2015_logo.svg.png" alt="" />
+                <img className='logo-signup' src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1920px-Netflix_2015_logo.svg.png" alt="" />
                
-                 <button type="submit" className='btn nav-button123' onClick={signIn} >Sign In</button>
+                 <button type="submit" className='SIGNup' onClick={signIn} >Sign In</button>
                 
             </div>
             

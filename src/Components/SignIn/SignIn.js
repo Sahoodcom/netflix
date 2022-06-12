@@ -55,7 +55,7 @@ function SignIn() {
 
                         <input className='box' type="input" placeholder='Email' onChange={(e) => setEmail(e.target.value)} />
                         <input className='box' type="password" placeholder='Password' onChange={(e) => setPassword(e.target.value)} /><br />
-                        <button onClick={handleSubmit}>Sign In</button>
+                        <button onClick={handleSubmit} className='SIGNin' >Sign In</button>
                         <div>
                             <p id='pp'>Need Help?</p>
                         </div>
