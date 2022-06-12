@@ -17,7 +17,8 @@ function Banner() {
         const docRef = await addDoc(collection(db, uid), {
           Details:movie
         });
-        console.log("Document written with ID: ", docRef.id);}
+        console.log("Document written with ID: ", docRef.id);
+      }
     
   
     useEffect(() => {
@@ -32,7 +33,7 @@ function Banner() {
     
   return (
       
-    <div  style={{backgroundImage:`url(${movie ? imageUrl+movie.backdrop_path : ''})`}} className='banner'>
+    <div  style={{backgroundImage:`url(${movie ? imageUrl+movie.backdrop_path : ''})`}} className='banner col-12'>
         <div className="content2">
             <h1 className='titile'>{movie ? movie.title||movie.name : ""}</h1>
             <div className="banner_buttons">
@@ -41,7 +42,7 @@ function Banner() {
             </div>
             <h1 className='description'>{movie ? movie.overview : ''}</h1>
         </div>
-        <div className="fade"></div>
+        <div className="fade12"></div>
     </div>
   )
 }

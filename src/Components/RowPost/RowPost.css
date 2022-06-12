@@ -47,25 +47,26 @@
     width: 100%;
     height: 100%;
     background:rgb(75, 74, 74,0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 .pop{
-    height: 345px;
-    width: 751px;
+    min-height: 10rem;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+    margin: auto;
     background-color: #111;
 }
 .pop_left{
-    width: 406px;
-    height: 345px;
-    top: 0;
+    min-height: 10rem;
+    float: left;
+}
+.pop_info{
+    min-height: 10rem;
     float: left;
 }
 .pop_img{
-    width: 406px;
     height: auto;
     object-fit: cover;
     float: left;
@@ -78,8 +79,9 @@
     float: left;
 
 }
-.pop h3,h4{
+.pop p{
     float: left;
+    font-size: 0.9rem;
     margin-left: 33px;
     margin-top: 10px;
     margin-right: 20px;
@@ -87,8 +89,7 @@
 }
 .pop_text{
     float: left;
-    height: 231px;
-    width: 335px;
+    height: 185px;
     overflow: hidden;
 }
 .pop_rate{
@@ -98,7 +99,7 @@
 }
 .pop_rate h6{
     top: 0;
-    font-size: 13px;
+    font-size: 10px;
     color: #fff;
     display: inline-block;
 }
@@ -106,7 +107,7 @@
     height: 78px;
     width: 400px;
     float: left;
-    margin: 10px;
+    margin-top: 10px;
 }
 .pop_button button{
     background-color: rgb(95, 16, 16);
@@ -121,9 +122,14 @@
     margin-left: 101px;
     display: inline-block;
     font-weight: 200;
+    font-size: 0.7rem;
+
 }
 #b2{
     margin-left: 128px;
     display: inline-block;
     font-weight: 300;
+    font-size: 0.7rem;
+    
 }
+

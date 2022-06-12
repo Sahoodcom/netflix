@@ -9,7 +9,6 @@ function Home() {
         <Banner/>
         <RowPost title="Netflix Originals" url={originals} />
         <RowPost title="Action"  url={action} />
-        <RowPost title="Science Fiction"  url={documentary} />
         <RowPost title="Documentary"  url={science} />
     </div>
   )
